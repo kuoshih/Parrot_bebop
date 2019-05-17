@@ -23,7 +23,7 @@ License: Apache 2.0
 
 
 ## Install bebop_autonomy
-Create and initialize the workspace 
+Create and initialize the workspace    
 $ mkdir -p ~/bebop_ws/src && cd ~/bebop_ws    
 $ catkin init    
 $ git clone https://github.com/AutonomyLab/bebop_autonomy.git src/bebop_autonomy    
