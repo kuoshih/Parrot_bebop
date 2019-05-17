@@ -23,11 +23,11 @@ License: Apache 2.0
 
 
 ## Install bebop_autonomy
-# Create and initialize the workspace 
+Create and initialize the workspace 
 $ mkdir -p ~/bebop_ws/src && cd ~/bebop_ws    
 $ catkin init    
 $ git clone https://github.com/AutonomyLab/bebop_autonomy.git src/bebop_autonomy    
-# Update rosdep database and install dependencies (including parrot_arsdk)    
+Update rosdep database and install dependencies (including parrot_arsdk)    
 $ rosdep update    
 $ rosdep install --from-paths src -i # Build the workspace    
 $ catkin build   
@@ -40,10 +40,10 @@ $ catkin_make
 
 
 ## Run the code   
-Connect your wifi to Bebop2   
-# run the Bebop2 driver
+Connect your WiFi to Bebop2 (Turn on Bebop's power)   
+run the Bebop2 driver
 $roslaunch bebop_driver bebop_node.launch   
-# run the node for receiving and sending data
+run the node for receiving and sending data
 $rosrun bebop listener   
 
 The bebop will take off, moving foward, backward and land.   
