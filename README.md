@@ -1,6 +1,6 @@
 # Parrot_bebop
 
-![alt text](https://github.com/kuoshih/Parrot_bebop/pictures/bebop.jpg)  
+![alt text](https://github.com/kuoshih/Parrot_bebop/blob/master/pictures/bebop.jpg)  
 
 ## Abstract
 This code is for final projects of MA5041 Modern Artificial Intelligence and MA5039 Perception and Estimation in Robotics.
