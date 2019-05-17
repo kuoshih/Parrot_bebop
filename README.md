@@ -41,10 +41,10 @@ $ catkin_make
 
 ## Run the code   
 Connect your WiFi to Bebop2 (Turn on Bebop's power)   
-run the Bebop2 driver
-$roslaunch bebop_driver bebop_node.launch   
-run the node for receiving and sending data
-$rosrun bebop listener   
+run the Bebop2 driver  
+$roslaunch bebop_driver bebop_node.launch     
+run the node for receiving and sending data  
+$rosrun bebop listener     
 
 The bebop will take off, moving foward, backward and land.   
 
