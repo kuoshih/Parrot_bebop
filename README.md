@@ -10,7 +10,7 @@ https://bebop-autonomy.readthedocs.io/en/latest/index.html
 This code activates a node "Bebop_CODE". 
 This node subscribes two topics -- bebop/odom and bebop/image_raw.
 This node publishes one topics -- bebop/cmd_vel. 
-You can access data from two Callback functions in src/main.cpp.
+You can access data from two Callback functions in src/listener.cpp.
 The timer callback will send velocity commends to bebop.
 
 
