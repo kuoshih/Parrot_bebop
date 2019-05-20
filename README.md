@@ -53,6 +53,6 @@ $rviz
 Press "Add" button in rviz, then select "image"  
 Set topic as "bebop/image_raw."
 You can see the real-time image from bebop  
-![alt text](https://github.com/kuoshih/hypharos_minibot/blob/master/document/??)  
+![alt text](https://github.com/kuoshih/Parrot_bebop/blob/master/pictures/.jpg)  
 ## Edit code  
 You can edit src/listener.cpp for your project.
