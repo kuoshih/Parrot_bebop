@@ -50,6 +50,8 @@ The bebop will take off, moving foward, backward and land.
 
 ## rviz
 $rviz     
+Press "Add" button in rviz, then select "axes"  
+Set reference frame as "odom."     
 Press "Add" button in rviz, then select "image"  
 Set topic as "bebop/image_raw."
 You can see the real-time image from bebop  
